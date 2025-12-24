@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>portfoli0</title>
+</head>
+<style>
+    body {
+        margin:0;
+        font-family:Arial,sans-serif;
+        background-color : #f4f4f4;
+        color:#333;
+    }
+    header {
+     background: rgb(216, 216, 180);
+     color: white;
+     text-align: center;
+     padding: 20px;
+    }
+
+    header span{
+        color:aquamarine;
+        text-align: center;
+        padding:30px;
+    }
+    #mm{
+        color:aqua;
+    }
+    button{
+        padding:10px 20px;
+        cursor:pointer;
+    }
+    section {
+        padding:40px 20px;
+        max-width: 800px;
+        margin:auto;
+     
+    }
+    h2{
+        padding:10px 20px;
+        
+        color:rgb(77, 68, 55);
+        text-align:center;
+
+    }
+    h3{
+        padding:10px 20px;
+        text-align:center;
+        color:cadetblue;
+    }
+    ul li{
+        text-align:center; 
+        padding:10px 20px;
+        color:coral;
+    }
+
+</style>
+<body>
+    <header>
+        <h1> Helo, i'm<span>Rahul raushan</span></h1>
+        <p id="mm"> Btech AIML Student || Web developer</p>
+        <button onclick="scrollToContact()">cantact me</button>
+
+    </header>
+    <section id="about">
+        <h2> about me</h2>
+        <p> i am a first  year Btech student specializing in artificial
+            intelligence and machine learning and i love building website and new technologies.
+        </p>
+        </section>
+
+        <section id="skills">
+            <h3>my skills </h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>python(basic)</li>
+                <li>AI/ml(biginners)</li>
+            </ul>
+        </section>
+        <section>
+            <div id="projrcts">
+                <h2>projects</h2>
+                <ol>
+                    <li>potfolio website</li>
+                    <li>personal website with potfolio</li>
+                </ol>
+            </div>
+        </section>
+        <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: yourname@gmail.com</p>
+        <p>GitHub: github.com/yourusername</p>
+    </section>
+    <script>
+       function scrollToContact() {
+    document.getElementById("contact").scrollIntoView({
+        behavior: "smooth"
+    });
+}
+
+       
+    </script>
+
+
+
+
+    
+</body>
+</html>
